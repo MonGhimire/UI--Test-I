@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* * Use positioning to fix the header to the top of the page. It should take up 100% of the available space and not cover any of the content below. Give the header a background color of **cyan**. */
+
+header {
+    
+    background: cyan;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0.5em;
+    left: 0%;
+    top: 0%;
+    
+
+}
+
+/* In the "_List_" section, change the color of the second list item to blue.  */
+
+.list {
+    margin-top: 5em;
+    
+}
+
+.list ul > li:nth-child(2) {
+    color: blue;
+}
+
+/* In the "_Images_" section, make all of the images appear side-by-side. */
+
+.images {
+    margin-top: 1em;
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+
+.image {
+    height: 200px;    
+}
+
+.images img {
+    margin-right: 50px;
+}
+
+/* Change the color of the `h3` elements to orange using rbg. The size of the text should be `2em` and appear as uppercase. */
+
+.sub-title {
+    color: rgb(255, 165, 0);
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+/* ### Box Model 
+* In the "_Box Model_" section, add `5 pixels` of `padding` to the section element that contains a paragraph and an image.
+
+* In the "_Box Model_" section, make sure the margins of the section element which contains a paragraph and an image is `10%` of its parent's width. */
+
+.box-model {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10%;
+   
+}
+
+.box-model > p,img {
+    padding: 5px;
+}
+
+
+
+/* 
+### Images & Links 
+* In the "_Link_" section, insert a link that redirects the user to an image of your favourite book cover. Make sure that the image opens in a new tab.
+
+* In the "_Images_" section, add the image `tree.jpg` from the image folder. Make the image appear rounded. Add [this](https://caseytrees.org/tree-species/) link to the `tree.jpg` image.
+ */
+
+.links a {
+    text-decoration: none;
+}
+
+#tree {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ /*### Hierarchy
+* Move the footer in HTML to the bottom of the document. */
+
+/* Select all descendant links in the footer. Change the links' color to green on `visited` and red on `hover`.
+  */
+footer > ul {
+    
+    list-style-type: none;
+    padding: 10px;
+}
+
+footer li {
+    text-decoration: none;
+}
+
+footer  a {
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: green;
+}
+
+footer a:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* li {
+        margin-bottom: 10px;
+      } */
